@@ -19,5 +19,6 @@ function currentLine(crentLine)
   for (var i = 0; i < crentLine.length; i++) {
     string += `${i}. ${crentLine[i]}, `;
   }
+  string.length -= 2;
   return string;
 }
