@@ -1,6 +1,6 @@
 function takeANumber(crentLine, name)
 {
-  currentLine.push(name);
+  crentLine.push(name);
   return `Welcome, ${name}. You are number ${crentLine.length} in line.`;
 }
 
