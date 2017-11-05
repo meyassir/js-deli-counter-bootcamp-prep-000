@@ -17,7 +17,7 @@ function currentLine(crentLine)
   }
   let string ="The line is currently: "
   for (var i = 0; i < crentLine.length; i++) {
-    string += `${crentLine.length}. ${crentLine[i]}, `;
+    string += `${i}. ${crentLine[i]}, `;
   }
   return string;
 }
